@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1088849242137",
+    "project_id": "one-quiz-cf69a",
+    "storage_bucket": "one-quiz-cf69a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088849242137:android:50f3d8c99dcd23e1c82288",
+        "android_client_info": {
+          "package_name": "com.example.onequiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXt_3pF3n524k0YM4jtvT4FkhBTRhTfC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

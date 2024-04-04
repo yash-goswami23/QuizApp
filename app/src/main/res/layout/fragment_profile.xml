@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragments.ProfileFragment"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImage"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="276dp"
+        android:layout_gravity="center"
+        android:src="@drawable/avatar"/>
+
+    <TextView
+        android:id="@+id/emailBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/textbox"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/colorPurple"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/nameBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/textbox"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"
+        android:drawableTint="@color/colorPurple"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textColor="@color/black"/>
+
+    <!--    <EditText-->
+<!--        android:id="@+id/passBox"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginRight="20dp"-->
+<!--        android:background="@drawable/textbox"-->
+<!--        android:drawableLeft="@drawable/password"-->
+<!--        android:drawableTint="@color/colorPurple"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Password"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:padding="15dp"-->
+<!--        android:textColorHint="@color/black"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/nameBox" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/updateBtn"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:background="@drawable/button_3"-->
+<!--        android:text="@string/update_profile"-->
+<!--        android:textColor="@color/color_white"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/passBox"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/passBox"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/passBox" />-->
+
+</LinearLayout>
